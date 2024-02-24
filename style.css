@@ -1,0 +1,54 @@
+:root {
+    --background: #081a10;
+    --text-header: seagreen;
+    --text-body: palegreen;
+}
+
+body {
+    color: var(--text-body);
+    font-size: 30px;
+    font-family: "Titan One";
+
+    background: var(--background);
+    overflow: hidden;
+}
+
+h1, h2 {
+    color: var(--text-header);
+}
+h1 { font-size: 50px; }
+h2 { font-size: 40px; }
+
+button {
+    margin: 20px;
+    padding: 10px;
+
+    border: none;
+
+    font-size: 30px;
+    color: var(--text-body);
+    font-family: "Titan One";
+
+    background: var(--text-header);
+
+    cursor: pointer;
+}
+
+img {
+    width: 20%;
+
+    cursor: pointer;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.column { flex-direction: column; }
+.row { flex-direction: row; }

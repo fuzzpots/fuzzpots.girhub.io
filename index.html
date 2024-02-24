@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <title>Fuzzpots</title>
+    <meta name="title" content="Fuzzpots" />
+    <meta name="description" content="Amuse yourself with the beasts!" />
+
+    <!-- Stylesheets & Scripts -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="whoa.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <script src="beasts.js"></script>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fuzzpots.github.io" />
+    <meta property="og:title" content="Fuzzpots" />
+    <meta property="og:description" content="Amuse yourself with the beasts!" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://fuzzpots.github.io" />
+    <meta property="twitter:title" content="Fuzzpots" />
+    <meta property="twitter:description" content="Amuse yourself with the beasts!" />
+</head>
+
+<body>
+    <div class="flex column">
+        <h1>Poke away at the beasts!</h1>
+
+        <div class="flex row">
+            <img src="images/desmond.png" alt="" onclick="beast('BLORF')" class="whoa flyIn">
+            <img src="images/elizabeth.png" alt="" onclick="beast('YEEP')" class="whoa spin3D">
+            <img src="images/martha.png" alt="" onclick="beast('CLICKEDY')" class="whoa wowzors">
+            <img src="images/norman.png" alt="" onclick="beast('FROOF')" class="whoa simpleEntrance">
+            <img src="images/ogden.png" alt="" onclick="beast('YEEEOOO')" class="whoa rotateComplex">
+        </div>
+
+        <div class="flex column">
+            <h2>The beast says:</h2>
+            <p id="beast_says"></p>
+        </div>
+    </div>
+</body>
+</html>
